@@ -1,4 +1,5 @@
 package com.github.yanglw.multiitem.adapter;
+import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;
 
@@ -36,3 +37,4 @@ public class MultBaseAdapter extends MyBaseAdapter<MultiItemIF>
         MultiItemIF bean = mList.get(position);
         return bean.getItemView(position, convertView, parent, mInflater, mObjs);
     }
+}
