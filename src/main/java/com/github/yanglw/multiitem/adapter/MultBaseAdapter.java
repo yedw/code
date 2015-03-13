@@ -36,4 +36,3 @@ public class MultBaseAdapter extends MyBaseAdapter<MultiItemIF>
         MultiItemIF bean = mList.get(position);
         return bean.getItemView(position, convertView, parent, mInflater, mObjs);
     }
-}
